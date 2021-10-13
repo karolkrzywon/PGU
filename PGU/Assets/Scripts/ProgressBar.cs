@@ -10,7 +10,7 @@ public class ProgressBar : MonoBehaviour
     public Text progressText;
     public float gameTime;
     public float currentTime;
-    private float progressValue;
+    public float progressValue;
     public float ProgressValue
     {
         get { return progressValue; }
