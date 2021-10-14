@@ -18,7 +18,7 @@ public class ProgressBar : MonoBehaviour
         {
             progressValue = value;
             slider.value = progressValue;
-            string progressString = (progressValue * 100).ToString("0.00") + "%";
+            string progressString = (progressValue * 100).ToString("0.##") + "%";
             progressText.text = progressString;
         }
     }

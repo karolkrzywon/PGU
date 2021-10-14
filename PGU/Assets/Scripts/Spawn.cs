@@ -5,9 +5,9 @@ using System.Runtime;
 
 public class Spawn : MonoBehaviour
 {
-    int interval = 2;
+    int interval = 10;
     float nextTime = 0;
-    private GameObject dwarf;
+    public GameObject dwarf;
     int x = 0;
     int y = 0;
     
@@ -15,7 +15,7 @@ public class Spawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dwarf = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        
     }
 
     // Update is called once per frame
@@ -23,8 +23,8 @@ public class Spawn : MonoBehaviour
     {
         if(Time.time >= nextTime)
         {
-            x = Random.Range(-12, 13);
-            y = Random.Range(-6, 6);
+            x = Random.Range(200, 500);
+            y = Random.Range(100, 300);
             dwarf.transform.position = new Vector3(x, y, 0); 
             nextTime += interval;
         }
