@@ -8,8 +8,9 @@ public class Spawn : MonoBehaviour
     int interval = 10;
     float nextTime = 0;
     public GameObject dwarf;
+    public GameObject crown;
     int x = 0;
-    int y = 0;
+    int z = 0;
     
 
     // Start is called before the first frame update
@@ -23,10 +24,20 @@ public class Spawn : MonoBehaviour
     {
         if(Time.time >= nextTime)
         {
-            x = Random.Range(200, 500);
-            y = Random.Range(100, 300);
-            dwarf.transform.position = new Vector3(x, y, 0); 
+            changePosition();
             nextTime += interval;
         }
+    }
+
+    public void changePosition()
+    {
+        int dwarfNumber = Random.Range(0, 3);
+        if (dwarfNumber == 1)
+            crown.SetActive(true);
+        else
+            crown.SetActive(false);
+        x = Random.Range(170, 535);
+        z = Random.Range(50, 200);
+        dwarf.transform.position = new Vector3(x, 150, z);
     }
 }

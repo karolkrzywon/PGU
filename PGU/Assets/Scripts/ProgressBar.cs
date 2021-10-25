@@ -41,4 +41,9 @@ public class ProgressBar : MonoBehaviour
             ProgressValue = 1;
         }
     }
+
+    public void delayConstruction()
+    {
+        currentTime = currentTime * 0.9f;
+    }
 }

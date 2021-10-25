@@ -291,3 +291,5 @@ C:\Users\Karol\Desktop\studia\sem7\PGU\PGU\PGU\obj\Debug\Assembly-CSharp.csproj.
 C:\Users\Karol\Desktop\studia\sem7\PGU\PGU\PGU\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\Karol\Desktop\studia\sem7\PGU\PGU\PGU\obj\Debug\Assembly-CSharp.dll
 C:\Users\Karol\Desktop\studia\sem7\PGU\PGU\PGU\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Karol\Desktop\studia\sem7\PGU\PGU\PGU\Temp\Bin\Debug\Unity.PlasticSCM.Editor.dll
+C:\Users\Karol\Desktop\studia\sem7\PGU\PGU\PGU\Temp\Bin\Debug\Unity.PlasticSCM.Editor.pdb

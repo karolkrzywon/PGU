@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class SUCC : MonoBehaviour
 {
+    public GameObject dwarf;
+    public GameObject GameObject;
+    private GameController gameController;
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("CollisionEnter \"" + other.gameObject.name + " \"Object");
         if (other.gameObject.name == "Dwarf"){
-            Destroy(other.gameObject);
+            gameController = GameObject.GetComponent<GameController>();
+            gameController.succDwarf();
+            StartCoroutine(succDwarf(other.gameObject));
         }
+    }
+
+    IEnumerator succDwarf(GameObject other)
+    {
+        other.SetActive(false);
+        yield return new WaitForSeconds(5.0f);
+        other.SetActive(true);
+        dwarf.GetComponent<Spawn>().changePosition();
     }
 }
