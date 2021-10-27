@@ -6,8 +6,8 @@ using UnityEngine;
 public class GameData
 {
     public float progressValue;
-    public GameData (ProgressBar progressBar)
+    public GameData (float progressValuea)
     {
-        progressValue = progressBar.progressValue;
+        progressValue = progressValuea;
     }
 }
