@@ -9,7 +9,8 @@ public class SUCC : MonoBehaviour
     private GameController gameController;
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Dwarf"){
+        if (other.gameObject.name == "Z³oœliwy krasnolud")
+        {
             gameController = GameObject.GetComponent<GameController>();
             gameController.succDwarf();
             StartCoroutine(succDwarf(other.gameObject));
