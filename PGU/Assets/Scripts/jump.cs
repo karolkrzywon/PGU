@@ -10,6 +10,7 @@ public class jump : MonoBehaviour
     public Vector3 maxHeight;
     public Vector3 curvePointDown;
     public Vector3 landingPosition;
+    public ParticleSystem particleSystem;
     public GameObject jumper;
     private int state;
     private bool updateOn;
@@ -19,6 +20,7 @@ public class jump : MonoBehaviour
     {
         state = 6;
         updateOn = true;
+        particleSystem.Play();
     }
 
     // Update is called once per frame
@@ -45,9 +47,11 @@ public class jump : MonoBehaviour
         {
             case 0:
                 destination = slopeTreshHold;
+                particleSystem.Play();
                 break;
             case 1:
                 destination = curvePointUp;
+                particleSystem.Stop();
                 break;
             case 2:
                 destination = maxHeight;
@@ -63,6 +67,7 @@ public class jump : MonoBehaviour
                 break;
             case 6:
                 destination = slopeTreshHold;
+                particleSystem.Play();
                 break;
         }
         return destination;
