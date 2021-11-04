@@ -11,12 +11,12 @@ public class Spawn : MonoBehaviour
     public GameObject crown;
     int x = 0;
     int z = 0;
-    
+    private Material material;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        material = GetComponent<MeshRenderer>().sharedMaterial;
     }
 
     // Update is called once per frame
@@ -33,9 +33,15 @@ public class Spawn : MonoBehaviour
     {
         int dwarfNumber = Random.Range(0, 3);
         if (dwarfNumber == 1)
+        {
             crown.SetActive(true);
+            material.SetFloat("_CX", 3);
+        }
         else
+        {
             crown.SetActive(false);
+            material.SetFloat("_CX", 1);
+        }   
         x = Random.Range(170, 535);
         z = Random.Range(50, 200);
         dwarf.transform.position = new Vector3(x, 150, z);
