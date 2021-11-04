@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 1401
+  controlID: 5194
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 1406
+  controlID: 5195
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 1407
+  controlID: 5196
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -398,9 +398,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7a3d0000
-      m_LastClickedID: 15738
-      m_ExpandedIDs: 54fbffff4e3e0000
+      m_SelectedIDs: fee6ffff
+      m_LastClickedID: -6402
+      m_ExpandedIDs: 50fbffffe23d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -416,7 +416,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 11}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -460,9 +460,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 284, y: 168.19681, z: 207.56528}
+    m_Target: {x: 1081.5172, y: -146.18454, z: 64.82885}
     speed: 2
-    m_Value: {x: 284, y: 168.19681, z: 207.56528}
+    m_Value: {x: 1081.5172, y: -146.18454, z: 64.82885}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -509,13 +509,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.14676459, y: 0.015718846, z: -0.0023731904, w: -0.9890883}
+    m_Target: {x: 0.13523367, y: 0.6862253, z: -0.13213897, w: 0.7024523}
     speed: 2
-    m_Value: {x: -0.1467646, y: 0.015718846, z: -0.0023731904, w: -0.9890883}
+    m_Value: {x: 0.13523367, y: 0.6862253, z: -0.13213897, w: 0.7024523}
   m_Size:
-    m_Target: 31.231976
+    m_Target: 620.5931
     speed: 2
-    m_Value: 31.231976
+    m_Value: 620.5931
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -698,22 +698,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Wszio\Studia\Obecne przedmioty\PGU\PGU\PGU
+  m_LastProjectPath: C:\Users\ryczu\Documents\Git\pgu\PGU\PGU
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 92.399994}
-    m_SelectedIDs: a4420000
-    m_LastClickedID: 17060
-    m_ExpandedIDs: 0000000016420000184200001a4200001c4200001e42000020420000224200002442000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 2c420000
+    m_LastClickedID: 16940
+    m_ExpandedIDs: 000000002c4200002e42000030420000324200003442000036420000384200003a42000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -741,7 +741,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000016420000184200001a4200001c4200001e42000020420000224200002442000000ca9a3b
+    m_ExpandedIDs: 000000002c4200002e42000030420000324200003442000036420000384200003a42000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -854,7 +854,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 664.0001
+  m_LastVerticalScrollValue: 360
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
