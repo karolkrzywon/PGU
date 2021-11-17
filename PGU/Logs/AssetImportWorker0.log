@@ -116,3 +116,31 @@ System memory in use after: 201.6 MB.
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1894.
 Total: 2.597771 ms (FindLiveObjects: 0.227864 ms CreateObjectMapping: 0.062423 ms MarkObjects: 2.287723 ms  DeleteObjects: 0.017617 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004958 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.9 MB.
+System memory in use after: 202.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1896.
+Total: 2.534306 ms (FindLiveObjects: 0.206747 ms CreateObjectMapping: 0.065017 ms MarkObjects: 2.245069 ms  DeleteObjects: 0.015248 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2704.986428 seconds.
+  path: Assets/Shaders/potShader.shader
+  artifactKey: Guid(37ea616d207ea460db1b05c96da058ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/potShader.shader using Guid(37ea616d207ea460db1b05c96da058ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ba1197d9fd64c606e8324b1a249554') in 0.117772 seconds
+  Import took 0.123889 seconds .
+
