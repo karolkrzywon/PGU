@@ -1,0 +1,118 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/agatex20/Desktop/unity/PGU2/PGU/PGU
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51207
+Successfully changed project path to: /Users/agatex20/Desktop/unity/PGU2/PGU/PGU
+/Users/agatex20/Desktop/unity/PGU2/PGU/PGU
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/agatex20/Desktop/unity/PGU2/PGU/PGU/Assets
+GfxDevice: creating device client; threaded=0
+2021-11-17 22:09:18.131 Unity[5983:275774] Color LCD preferred device: Intel Iris Pro Graphics (low power)
+2021-11-17 22:09:18.131 Unity[5983:275774] Metal devices available: 2
+2021-11-17 22:09:18.131 Unity[5983:275774] 0: AMD Radeon R9 M370X (high power)
+2021-11-17 22:09:18.131 Unity[5983:275774] 1: Intel Iris Pro Graphics (low power)
+2021-11-17 22:09:18.132 Unity[5983:275774] Using device AMD Radeon R9 M370X (high power)
+Initializing Metal device caps: AMD Radeon R9 M370X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56983
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000658 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 36.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.710 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.322 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.0 MB.
+System memory in use after: 186.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1885.
+Total: 3.727816 ms (FindLiveObjects: 0.318106 ms CreateObjectMapping: 0.072360 ms MarkObjects: 3.195576 ms  DeleteObjects: 0.140034 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(4942d8c5c050c0949abde7e3ea693732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(4942d8c5c050c0949abde7e3ea693732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e4ecbc9e57dfc5d8a114aee661a1ee') in 0.940674 seconds
+  Import took 0.944131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/phone.png
+  artifactKey: Guid(c14a71c9223ec8846b675aa565755915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/phone.png using Guid(c14a71c9223ec8846b675aa565755915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936dbb59aa41d689508c9343603f758c') in 0.752303 seconds
+  Import took 0.754695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/SlopeObject.prefab
+  artifactKey: Guid(ed125043eae4c4499a156fa0cefea7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlopeObject.prefab using Guid(ed125043eae4c4499a156fa0cefea7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80cf56e8d30727b9e49c8f28575f6ab') in 0.503937 seconds
+  Import took 0.506446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(15ae9258031227146a2b60c57adbaafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(15ae9258031227146a2b60c57adbaafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d1273caf146596b19053b93bc476fa') in 0.007241 seconds
+  Import took 0.009992 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.473 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.5 MB.
+System memory in use after: 201.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 2.597771 ms (FindLiveObjects: 0.227864 ms CreateObjectMapping: 0.062423 ms MarkObjects: 2.287723 ms  DeleteObjects: 0.017617 ms)
+
