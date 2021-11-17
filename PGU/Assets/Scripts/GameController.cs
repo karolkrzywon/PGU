@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour
 {
     public int killCount = 0;
+    public Shader vaccumShader;
     public Slider slider;
     public GameObject jumpingDwarf;
     public GameObject walkingDwarf1;
@@ -23,6 +24,10 @@ public class GameController : MonoBehaviour
     }
     void Update()
     {
+        if (killCount == 3)
+        {
+            changeVaccumShader();
+        }
         if (killCount == 5)
         {
             callSoldiers();
@@ -72,5 +77,11 @@ public class GameController : MonoBehaviour
             soldier.SetActive(false);
         }
         light.GetComponent<Light>().color = Color.white;
+    }
+
+    private void changeVaccumShader()
+    {
+        Renderer vaccumRenderer = cylinder.GetComponent<Renderer>();
+        vaccumRenderer.material.shader = vaccumShader;
     }
 }
