@@ -11,6 +11,8 @@ public class ProgressBar : MonoBehaviour
     public float gameTime;
     public float currentTime;
     public float progressValue;
+    public Material material;
+    private bool blinkSet;
     public float ProgressValue
     {
         get { return progressValue; }
@@ -20,6 +22,7 @@ public class ProgressBar : MonoBehaviour
             slider.value = progressValue;
             string progressString = (progressValue * 100).ToString("0.##") + "%";
             progressText.text = progressString;
+            blinkSet = false;
         }
     }
     // Start is called before the first frame update
@@ -27,6 +30,7 @@ public class ProgressBar : MonoBehaviour
     {
         ProgressValue = 0f;
         currentTime = 0f;
+        material.SetFloat("_Blink", 0f);
     }
 
     // Update is called once per frame
@@ -39,6 +43,11 @@ public class ProgressBar : MonoBehaviour
         } else
         {
             ProgressValue = 1;
+        }
+        if(blinkSet == false && ProgressValue > 0.75f)
+        {
+            material.SetFloat("_Blink", 1);
+            blinkSet = true;
         }
     }
 

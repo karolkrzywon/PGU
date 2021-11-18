@@ -6,8 +6,11 @@ using UnityEngine;
 public class GameData
 {
     public float progressValue;
-    public GameData (float progressValuea)
+    public int killCount;
+
+    public GameData (float progressValue, int killCount)
     {
-        progressValue = progressValuea;
+        this.progressValue = progressValue;
+        this.killCount = killCount;
     }
 }
