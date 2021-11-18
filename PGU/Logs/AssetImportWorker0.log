@@ -164,3 +164,127 @@ System memory in use after: 206.8 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1898.
 Total: 3.479328 ms (FindLiveObjects: 0.410676 ms CreateObjectMapping: 0.072205 ms MarkObjects: 2.830790 ms  DeleteObjects: 0.163304 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 4223.797899 seconds.
+  path: Assets/Shaders/potShader.shader
+  artifactKey: Guid(37ea616d207ea460db1b05c96da058ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/potShader.shader using Guid(37ea616d207ea460db1b05c96da058ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29da188918c00b03fd9ecc634afca04') in 0.022896 seconds
+  Import took 0.026552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.824105 seconds.
+  path: Assets/Materials/Grass 2.mat
+  artifactKey: Guid(0928be8c1802a4185ae6aa7f4ac5a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass 2.mat using Guid(0928be8c1802a4185ae6aa7f4ac5a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fd11dd6ee9f4a0de7e27054dbdbb27') in 0.264691 seconds
+  Import took 0.267987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(24abca94ec7494baa8d836c20d28b126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(24abca94ec7494baa8d836c20d28b126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935fcf15f261b8d44d42862f07c366c0') in 0.011849 seconds
+  Import took 0.014372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Materials/New Material 2.mat
+  artifactKey: Guid(e132ed49abac441d385f391b7b235476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 2.mat using Guid(e132ed49abac441d385f391b7b235476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd98eaceac681e958c3b6c44740de3f3') in 0.009130 seconds
+  Import took 0.012385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(407f076d51c16458ca0a058845e898b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(407f076d51c16458ca0a058845e898b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ead0dab60dbf565c307deeca785dea') in 0.011859 seconds
+  Import took 0.014431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.213848 seconds.
+  path: Assets/FreeCharacter/FreeCharacter_model.FBX
+  artifactKey: Guid(1b7945602ded3ec43804b120aa9ed037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeCharacter/FreeCharacter_model.FBX using Guid(1b7945602ded3ec43804b120aa9ed037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f73abe059f31adda00f164595c33d3e') in 0.325495 seconds
+  Import took 0.329125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/FreeCharacter/FreeCharacter_Mecanim.FBX
+  artifactKey: Guid(e1345f231bddd7a488397fb5ca71c0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeCharacter/FreeCharacter_Mecanim.FBX using Guid(e1345f231bddd7a488397fb5ca71c0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f2af375deb80c8c875a03dd7d927f3') in 0.016549 seconds
+  Import took 0.019656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/FreeCharacter/FreeCharacter_Animations.FBX
+  artifactKey: Guid(35b9df0d8ef0ab44abeb1b0a9e586310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeCharacter/FreeCharacter_Animations.FBX using Guid(35b9df0d8ef0ab44abeb1b0a9e586310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21675822022d0e763e26134b2a09612') in 0.013361 seconds
+  Import took 0.015862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.919400 seconds.
+  path: Assets/Shaders/Particle System.prefab
+  artifactKey: Guid(e45565659cbe6477fbef8651f96e4206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Particle System.prefab using Guid(e45565659cbe6477fbef8651f96e4206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f7baafd491a4eeabbf3e7c9c8c13b6') in 0.012228 seconds
+  Import took 0.015217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029391 seconds.
+  path: Assets/Shaders/Particle System.prefab
+  artifactKey: Guid(e45565659cbe6477fbef8651f96e4206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Particle System.prefab using Guid(e45565659cbe6477fbef8651f96e4206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f7baafd491a4eeabbf3e7c9c8c13b6') in 0.006218 seconds
+  Import took 0.011300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.509821 seconds.
+  path: Assets/Shaders/Skoczek Variant.prefab
+  artifactKey: Guid(3fbe329c24f1b438d8457107bad38ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Skoczek Variant.prefab using Guid(3fbe329c24f1b438d8457107bad38ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341089c0a1a7fbe615d675aad56e907a') in 0.035427 seconds
+  Import took 0.040247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005895 seconds.
+  path: Assets/Shaders/Skoczek Variant.prefab
+  artifactKey: Guid(3fbe329c24f1b438d8457107bad38ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Skoczek Variant.prefab using Guid(3fbe329c24f1b438d8457107bad38ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341089c0a1a7fbe615d675aad56e907a') in 0.032455 seconds
+  Import took 0.035825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 704.658831 seconds.
+  path: Assets/Scripts/jump.cs
+  artifactKey: Guid(b3a5a9639123e4849a66575416e58e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/jump.cs using Guid(b3a5a9639123e4849a66575416e58e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5ba8b3142b73d4ad527462a73572c1') in 0.390466 seconds
+  Import took 0.394532 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001920 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.3 MB.
+System memory in use after: 234.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1940.
+Total: 2.413918 ms (FindLiveObjects: 0.175471 ms CreateObjectMapping: 0.051857 ms MarkObjects: 2.085660 ms  DeleteObjects: 0.099652 ms)
+
